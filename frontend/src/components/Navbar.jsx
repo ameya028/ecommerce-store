@@ -13,8 +13,8 @@ const Navbar = () => {
 			<div className='container mx-auto px-4 py-3'>
 				<div className='flex flex-wrap justify-between items-center'>
 			     	<Link to='/' className='text-2xl font-bold text-emerald-400 flex items-center space-x-2'>
-                       {/*<img src='AlMighty.png' alt='Logo' className='h-8 w-8' />*/}
-                      <span>SK Industrial Hardware</span>
+                       <img src='Kiw.png' alt='Logo' className='h-8 w-8' />
+                      <span>KIW</span>
                      </Link>
 
 

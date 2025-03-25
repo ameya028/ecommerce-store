@@ -4,13 +4,13 @@ import { useProductStore } from "../stores/useProductStore";
 import FeaturedProducts from "../components/FeaturedProducts";
 
 const categories = [
-	{ href: "/A", name: "Heavy-Duty Cast Iron Bench Vise", imageUrl: "A heavy-duty cast iron bench.png" },
-	{ href: "/B", name: "Industrial-Grade Adjustable Wrench", imageUrl: "A heavy-duty cast iron gate latch.png" },
-	{ href: "/C", name: "Cast Iron Door Hinge Set (4-Pack)", imageUrl: "A high-strength steel.png" },
-	{ href: "/D", name: "Multi-Purpose Cordless Drill (18V)", imageUrl: "A powerful 18V cordless drill.webp" },
-	{ href: "/E", name: "Cast Iron Wall-Mounted Tool Rack", imageUrl: "A set of four heavy-duty.png" },
-	{ href: "/F", name: "Heavy-Duty Cast Iron Gate Latch", imageUrl: "A sturdy wall-mounted tool.png" },
-	{ href: "/G", name: "Industrial-Grade Hammer with Fiberglass Handle", imageUrl: "An industrial-grade 16 oz hammer.png" },
+	{ href: "/A", name: "ACTUATOR HOUSING", imageUrl: "ACTUATOR_HOUSING.png" },
+	{ href: "/B", name: "BUTTERFLY VALVE", imageUrl: "BUTTERFLY_VALVE.png" },
+	{ href: "/C", name: "COUPLING", imageUrl: "COUPLING.png" },
+	{ href: "/D", name: "CUBE MOULD", imageUrl: "CUBE_MOULD.png" },
+	{ href: "/E", name: "DISTRIBUTOR", imageUrl: "DISTRIBUTOR.png" },
+	{ href: "/F", name: "FLYWHEEL", imageUrl: "FLYWHEEL.png" },
+	{ href: "/G", name: "MACHINE BRACKET", imageUrl: "MACHINE_BRACKET.png" },
 ];
 
 const HomePage = () => {

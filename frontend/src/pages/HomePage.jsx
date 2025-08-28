@@ -36,9 +36,23 @@ const HomePage = () => {
 					))}
 				</div>
 
-				{!isLoading && products.length > 0 && <FeaturedProducts featuredProducts={products} />}
+				{!isLoading && products.length > 0 && (
+					<FeaturedProducts featuredProducts={products} />
+				)}
+
+				{/* Contact Section */}
+				<div className="mt-16 text-center">
+					<h2 className="text-2xl font-semibold text-emerald-400 mb-4">Contact Us</h2>
+					<p className="text-lg text-gray-300">
+						📞 Phone: <span className="font-medium">+91 90110 92299</span>
+					</p>
+					<p className="text-lg text-gray-300">
+						✉️ Email: <span className="font-medium">kiw@gmail.com</span>
+					</p>
+				</div>
 			</div>
 		</div>
 	);
 };
+
 export default HomePage;

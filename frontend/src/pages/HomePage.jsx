@@ -4,13 +4,14 @@ import { useProductStore } from "../stores/useProductStore";
 import FeaturedProducts from "../components/FeaturedProducts";
 
 const categories = [
-	{ href: "/A", name: "ACTUATOR HOUSING", imageUrl: "ACTUATOR_HOUSING.png" },
-	{ href: "/B", name: "BUTTERFLY VALVE", imageUrl: "BUTTERFLY_VALVE.png" },
-	{ href: "/C", name: "COUPLING", imageUrl: "COUPLING.png" },
-	{ href: "/D", name: "CUBE MOULD", imageUrl: "CUBE_MOULD.png" },
-	{ href: "/E", name: "DISTRIBUTOR", imageUrl: "DISTRIBUTOR.png" },
-	{ href: "/F", name: "FLYWHEEL", imageUrl: "FLYWHEEL.png" },
-	{ href: "/G", name: "MACHINE BRACKET", imageUrl: "MACHINE_BRACKET.png" },
+	{ href: "/A", name: "ARDUINO UNO", imageUrl: "Arduino.png" },
+	{ href: "/B", name: "RASPBERRY PI 4", imageUrl: "Rasspberry4.png" },
+	{ href: "/C", name: "ARDUINO GIGA", imageUrl: "Arduinog.png" },
+	{ href: "/D", name: "RASPBERRY PI 5", imageUrl: "Raspberry5.png" },
+	{ href: "/E", name: "ARDUINO MKR", imageUrl: "Arduinom.png" },
+	{ href: "/F", name: "ARDUINO NANO", imageUrl: "Arduinon.png" },
+	{ href: "/G", name: "ARDUINO NICLA", imageUrl: "Arduinoni.png" },
+	{ href: "/H", name: "ARDUINO PORTENTA", imageUrl: "Arduinop.png" },
 ];
 
 const HomePage = () => {
@@ -47,7 +48,7 @@ const HomePage = () => {
 						📞 Phone: <span className="font-medium">+91 90110 92299</span>
 					</p>
 					<p className="text-lg text-gray-300">
-						✉️ Email: <span className="font-medium">kiw@gmail.com</span>
+						✉️ Email: <span className="font-medium">Bitronics@gmail.com</span>
 					</p>
 				</div>
 			</div>
